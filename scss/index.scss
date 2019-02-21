@@ -1,0 +1,125 @@
+* {
+			padding: 0;
+			margin: 0;
+			font-family: sans-serif;
+		}
+body{
+  background: url("../images/bg.png") no-repeat center center/100% 100%;
+  padding: 0 40px;
+	box-sizing:border-box;
+	.top{
+	  width: calc(100%-80)px;
+	  height: 90px;
+	  border-bottom: 1px solid #396e95;
+		box-sizing:border-box;
+		overflow: hidden;
+		.head-left{
+			height: 100%;
+			float: left;
+			img{
+				height: 40px;
+				margin: 25px 0;
+				float: left;
+			}
+			p{
+				font-size: 24px;
+				color: #fff;
+				line-height: 90px;
+				float: left;
+			}
+	  }
+		.right{
+			width: 116px;
+			height: 100%;
+			float: right;
+			color: #fff;
+			padding: 19px 0;
+			box-sizing: border-box;
+			.time,.date{
+				width: 100%;
+				float: right;
+				font-size: 16px;
+				height: 25px;
+				line-height: 25px;
+				text-align: center;
+			}
+		}
+	}
+	.bottom{
+		width: 100%;
+		min-height: 500px;
+		padding: 44px 40px;
+		box-sizing: border-box;
+		.left,.center,.right{
+			min-height: 500px;
+			float: left;
+		}
+		.left{
+			width: 25%;
+			min-height: 500px;
+			.today-income{
+				width: 100%;
+				height: 180px;
+				background: url(../images/today-income.png) no-repeat center center/100% 100%;
+			}
+			.stop-length{
+				margin: 20px 0;
+				width: 100%;
+				height: 340px;
+				background: url(../images/stop-length.png) no-repeat center center/100% 100%;
+			}
+			.device-warning{
+				width: 100%;
+				height: 380px;
+				background: url(../images/left-right-bg.png) no-repeat center center/100% 100%;
+			}
+		}
+		.center{
+			width: 50%;
+			min-height: 500px;
+			.map{
+				width: 100%;
+				height: 640px;
+			}
+			.stop-photo{
+				width: calc(100%-60px);
+				height: 300px;
+				position: relative;
+				background: url(../images/stop-photo.png) no-repeat center center/100% 100%;
+				overflow: hidden;
+				margin:0 30px;
+			}
+		}
+		.right{
+			width: 25%;
+			min-height: 500px;
+			.stop-number{
+				width: 100%;
+				height: 180px;
+				.stop-con{
+					width:33.333333333333333%;
+					height: 100%;
+					float: left;
+					padding: 0 4px;
+					box-sizing: border-box;
+					.inner{
+						height: 100%;
+						background-color: #ff5e5e;
+						background: url(../images/stop-number-bg.png) no-repeat center center/cover;
+						text-align: center;
+					}
+					text-align: center;
+				}
+			}
+			.stop-top{
+				margin: 20px 0;
+				height: 340px;
+				background: url(../images/stop-length.png) no-repeat center center/100% 100%
+			}
+			.yestoday-info{
+				height: 380px;
+				background: url(../images/stop-length.png) no-repeat center center/100% 100%;
+			}
+		}
+	}
+}

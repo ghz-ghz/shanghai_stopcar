@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif; }
+
+body {
+  background: url("../images/bg.png") no-repeat center center/100% 100%;
+  padding: 0 40px;
+  box-sizing: border-box; }
+  body .top {
+    width: calc(100%-80) px;
+    height: 90px;
+    border-bottom: 1px solid #396e95;
+    box-sizing: border-box;
+    overflow: hidden; }
+    body .top .head-left {
+      height: 100%;
+      float: left; }
+      body .top .head-left img {
+        height: 40px;
+        margin: 25px 0;
+        float: left; }
+      body .top .head-left p {
+        font-size: 24px;
+        color: #fff;
+        line-height: 90px;
+        float: left; }
+    body .top .right {
+      width: 116px;
+      height: 100%;
+      float: right;
+      color: #fff;
+      padding: 19px 0;
+      box-sizing: border-box; }
+      body .top .right .time, body .top .right .date {
+        width: 100%;
+        float: right;
+        font-size: 16px;
+        height: 25px;
+        line-height: 25px;
+        text-align: center; }
+  body .bottom {
+    width: 100%;
+    min-height: 500px;
+    padding: 44px 40px;
+    box-sizing: border-box; }
+    body .bottom .left, body .bottom .center, body .bottom .right {
+      min-height: 500px;
+      float: left; }
+    body .bottom .left {
+      width: 25%;
+      min-height: 500px; }
+      body .bottom .left .today-income {
+        width: 100%;
+        height: 180px;
+        background: url(../images/today-income.png) no-repeat center center/100% 100%; }
+      body .bottom .left .stop-length {
+        margin: 20px 0;
+        width: 100%;
+        height: 340px;
+        background: url(../images/stop-length.png) no-repeat center center/100% 100%; }
+      body .bottom .left .device-warning {
+        width: 100%;
+        height: 380px;
+        background: url(../images/left-right-bg.png) no-repeat center center/100% 100%; }
+    body .bottom .center {
+      width: 50%;
+      min-height: 500px; }
+      body .bottom .center .map {
+        width: 100%;
+        height: 640px; }
+      body .bottom .center .stop-photo {
+        width: calc(100%-60px);
+        height: 300px;
+        position: relative;
+        background: url(../images/stop-photo.png) no-repeat center center/100% 100%;
+        overflow: hidden;
+        margin: 0 30px; }
+    body .bottom .right {
+      width: 25%;
+      min-height: 500px; }
+      body .bottom .right .stop-number {
+        width: 100%;
+        height: 180px; }
+        body .bottom .right .stop-number .stop-con {
+          width: 33.333333333333333%;
+          height: 100%;
+          float: left;
+          padding: 0 4px;
+          box-sizing: border-box;
+          text-align: center; }
+          body .bottom .right .stop-number .stop-con .inner {
+            height: 100%;
+            background-color: #ff5e5e;
+            background: url(../images/stop-number-bg.png) no-repeat center center/cover;
+            text-align: center; }
+      body .bottom .right .stop-top {
+        margin: 20px 0;
+        height: 340px;
+        background: url(../images/stop-length.png) no-repeat center center/100% 100%; }
+      body .bottom .right .yestoday-info {
+        height: 380px;
+        background: url(../images/stop-length.png) no-repeat center center/100% 100%; }
+
+/*# sourceMappingURL=index.css.map */
